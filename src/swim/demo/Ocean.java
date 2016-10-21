@@ -1,5 +1,5 @@
 
-package pkginterface.demo;
+package swim.demo;
 
 public class Ocean {
     public static void main(String[] args){

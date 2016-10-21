@@ -1,5 +1,5 @@
 
-package pkginterface.demo;
+package swim.demo;
 
 public class Human implements Swimmer {
     private String name;

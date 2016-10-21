@@ -1,4 +1,4 @@
-package pkginterface.demo;
+package swim.demo;
 
 public abstract class Fish implements Swimmer {
 
