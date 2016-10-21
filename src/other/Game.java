@@ -26,8 +26,6 @@ public class Game {
             case DOWN:
                 out.println("down action");
                 break;
-            default:
-                out.println("no this action");
         }
     }
 }
