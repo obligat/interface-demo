@@ -9,21 +9,21 @@ public class Game {
         play(Action.LEFT);
     }
 
-    public static void play(int action) {
+    public static void play(Action action) {
         switch (action) {
-            case Action.STOP:
+            case STOP:
                 out.println("stop action");
                 break;
-            case Action.RIGHT:
+            case RIGHT:
                 out.println("right action");
                 break;
-            case Action.LEFT:
+            case LEFT:
                 out.println("left action");
                 break;
-            case Action.UP:
+            case UP:
                 out.println("up action");
                 break;
-            case Action.DOWN:
+            case DOWN:
                 out.println("down action");
                 break;
             default:
