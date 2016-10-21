@@ -1,7 +1,7 @@
 
 package pkginterface.demo;
 
-public class Human {
+public class Human implements Swimmer {
     private String name;
     
     public Human (String name ){
@@ -12,6 +12,7 @@ public class Human {
         return name;
     }
     
+    @Override
     public void swim(){
         System.out.printf("human %s swim %n", name);
     }
