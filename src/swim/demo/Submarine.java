@@ -1,19 +1,13 @@
 package swim.demo;
 
-public class Submarine implements Swimmer {
-
-    private String name;
+public class Submarine extends Boat implements Diver {
 
     public Submarine(String name) {
-        this.name = name;
-    }
-
-    public String getName() {
-        return name;
+        super(name);
     }
 
     @Override
-    public void swim() {
+    public void dive() {
         System.out.printf("submarine %s submarining %n", name);
     }
 }
