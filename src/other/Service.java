@@ -1,15 +1,16 @@
 package other;
 
-interface Some {
+interface method {
 
     void execute();
+}
+
+interface Some extends method {
 
     void doSome();
 }
 
-interface Other {
-
-    void execute();
+interface Other extends method {
 
     void doOther();
 }
